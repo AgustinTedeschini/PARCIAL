@@ -75,7 +75,6 @@ while flag == True:
     
     opcion = input("ingrese una opcion del menu: ")
 
-
     if opcion == "1":
         from heroes import lista_heroes
         flag2 = False
@@ -129,5 +128,5 @@ while flag == True:
     elif opcion == "9":
         flag == False
 
-    elif flag2 == True:
+    else:
         print("ERROR: Lista no importada")
